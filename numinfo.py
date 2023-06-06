@@ -173,7 +173,7 @@ try:
     apv = requests.get("https://google.com", timeout=4).text
 except (requests.ConnectionError, requests.Timeout) as exception:
     os.system("clear")
-    print(yl+"\t»"+g+" TOOL NAME	: "+yl+"NUMBER TO INFO"+yl+"\n\t»"+g+" VERSION	: "+yl+"1.0.3"+"\n\t»"+g+" DEVOLOPER	: "+yl+"SH TASRIF"+yl+"\n\t»"+g+" FACEBOOK	: "+yl+"CYBERSHBD"+yl+"\n\t»"+g+" TELEGRAM	: "+yl+"@CYBERSHBD")
+    print(yl+"\t»"+g+" TOOL NAME	: "+yl+"NUMBER TO INFORMATION"+yl+"\n\t»"+g+" VERSION	: "+yl+"1.0.3"+"\n\t»"+g+" DEVOLOPER	: "+yl+"Mr.Cyb3rgh0st"+yl+"\n\t»"+g+"Telegram group: "+yl+"@ROCX_Group"+yl+"\n\t»"+g+" TELEGRAM	: "+yl+"@MrCyb3rgh0st")
     print(c+line)
     print(r+" [!] Oops, It looks like you have no Internet [!]\n")
     print(p+" [✓] Please connect to the internet and try again...\n")
@@ -199,7 +199,7 @@ ip=(get_ip())
 uname = os.uname()[2]
 aprk = str(uname)
 
-url = "https://raw.githubusercontent.com/ShTasrif/NumberToInfo/main/.admin/approval.json"
+url = "https://raw.githubusercontent.com/Mr-Cyb3rgh0st/Number-information/main/admin/approval.json"
 
 resp=requests.get(url).text
 
@@ -209,7 +209,7 @@ try:
 except:
 	name = "Not Approved"
 
-apv = requests.get("https://raw.githubusercontent.com/ShTasrif/NumberToInfo/main/.admin/premium.txt").text
+apv = requests.get("https://raw.githubusercontent.com/Mr-Cyb3rgh0st/Number-information/main/admin/premium.txt").text
 
 if aprk in apv:  # Assuming 'aprk' is defined elsewhere in your code
     status = "PREMIUM"
@@ -230,7 +230,7 @@ def updator():
 	header()
 	print(c+"\t        [•]Checking For Updates...\n")
 	version = open(".version.txt", "r")
-	mainversion = requests.get("https://raw.githubusercontent.com/ShTasrif/NumberToInfo/main/.version.txt")
+	mainversion = requests.get("https://raw.githubusercontent.com/Mr-Cyb3rgh0st/Number-information/main/.version.txt")
 	time.sleep(0.6)
 	
 	if(version.read() == mainversion.text):
@@ -273,7 +273,7 @@ def Subscription():
 	#open('/data/data/com.termux/files/usr/bin/.cybersh-sms-bombing', 'r').read()
 	header()
 	psb(cyan+"\n\t     Please Wait Checking Approval...")
-	os.system("xdg-open https://www.facebook.com/groups/356065192713979")
+	os.system("xdg-open https://t.me/ROCX_Group")
 	
 	r1=requests.get("https://raw.githubusercontent.com/ShTasrif/NumberToInfo/main/.admin/approval.json").text
 
@@ -290,7 +290,7 @@ def Subscription():
 		print("")
 		
 		print ("")
-		os.system("xdg-open https://t.me/cybersh_official")
+		os.system("xdg-open https://t.me/MrCyb3rgh0st")
 		psb (yellow+" Your Key : "+green+key1)
 		print ("")
 		name = input(purple+" [•] Enter Your Name : "+green)
@@ -300,7 +300,7 @@ def Subscription():
 		input(yellow+" \n\t         Press Enter To Send Key ")
 		time.sleep(2.5)
 		tks = 'Assalamu%20Alaikum%20CyberSH%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20CUSTOM-SMS%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'''+aprk+name
-		os.system('am start https://wa.me/8801644006764/?text=' + tks)
+		os.system('am start https://wa.me/8801726040374/?text=' + tks)
 		Subscription()
 
 def done():
