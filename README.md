@@ -17,7 +17,7 @@ pkg install python ruby -y
 gem install lolcat
 git clone https://github.com/Mr-Cyb3rgh0st/Number-information
 pip install requests
-cd NumberToInfo
+cd Number-information
 python info.py
 ```
 ### Run Tools
