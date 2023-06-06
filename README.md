@@ -15,7 +15,7 @@ pkg update && pkg upgrade -y
 pkg install git -y
 pkg install python ruby -y
 gem install lolcat
-git clone https://github.com/ShTasrif/NumberToInfo
+git clone https://github.com/Mr-Cyb3rgh0st/Number-information
 pip install requests
 cd NumberToInfo
 python info.py
